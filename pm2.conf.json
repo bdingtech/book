@@ -1,0 +1,14 @@
+{
+    "apps": {
+        "name": "book",
+        "script": "bin/www",
+        "watch": true,
+        "ignore_watch": [
+            "node_modules",
+            "logs"
+        ],
+        "instances": 4,
+        "error_file": "./logs/err.log",
+        "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    }
+}

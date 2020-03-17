@@ -1,0 +1,39 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeConnectionError: connect ETIMEDOUT
+    at D:\wamp64\www\xyj_ae\node_modules\_sequelize@5.21.5@sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeConnectionError: connect ETIMEDOUT
+    at D:\wamp64\www\xyj_ae\node_modules\_sequelize@5.21.5@sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeConnectionError: connect ETIMEDOUT
+    at D:\wamp64\www\xyj_ae\node_modules\_sequelize@5.21.5@sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\wamp64\www\xyj_ae\node_modules\_bluebird@3.7.2@bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)
