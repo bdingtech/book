@@ -1,6 +1,11 @@
 const Sequelize = require('sequelize');
 const MYSQL_CONF = require('./config.js');
 console.log('init sequelize...');
+console.log('host is ' + MYSQL_CONF.host)
+console.log('database is ' + MYSQL_CONF.database)
+console.log('username is ' + MYSQL_CONF.username)
+console.log('password is ' + MYSQL_CONF.password)
+
 
 var sequelize = new Sequelize(MYSQL_CONF.database, MYSQL_CONF.username, MYSQL_CONF.password, {
     host: MYSQL_CONF.host,
