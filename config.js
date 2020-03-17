@@ -6,12 +6,12 @@ if (env === 'dev') {
     MYSQL_CONF = {
         database: 'soup',
         username: 'root',
-        password: '1362061587',
-        host: '120.77.168.250',
+        password: '',
+        host: '127.0.0.1',
         port: 3306
     }
 }
-if(env === 'production'){
+if(env === 'prd'){
     MYSQL_CONF = {
         database: 'soup',
         username: 'root',
