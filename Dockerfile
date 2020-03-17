@@ -10,4 +10,4 @@ WORKDIR /home/app
 
 EXPOSE 3000
 
-CMD [ "npm", "start", "prd" ]
+CMD [ "npm", "start", "dev" ]
