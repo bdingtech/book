@@ -16,7 +16,7 @@ if(env === 'production'){
         database: 'soup',
         username: 'root',
         password: '1362061587',
-        host: '127.0.0.1',
+        host: '120.77.168.250',
         port: 3306
     }
 }
