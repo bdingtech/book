@@ -5,7 +5,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=dev nodemon ./bin/www",
     "dev": "cross-env NODE_ENV=dev nodemon  ./bin/www",
-    "prd": "cross-env NODE_ENV=production pm2-runtime start pm2.conf.json"
+    "prd": "cross-env NODE_ENV=prd pm2-runtime start pm2.conf.json"
   },
   "dependencies": {
     "axios": "^0.19.2",
