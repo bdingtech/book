@@ -15,7 +15,7 @@ services:
         - "./db:/var/lib/mysql"
         - "./conf/my.cnf:/etc/my.cnf"
   web:
-    image: .
+    build: .
     ports:
       - "3000:3000"
     links:
