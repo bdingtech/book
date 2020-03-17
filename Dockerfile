@@ -2,6 +2,8 @@ FROM node:alpine
 
 COPY . /home/app
 
+RUN npm cache clean -f && npm install -g n --registry=https://registry.npm.taobao.org
+
 RUN cd /home/app && npm install --registry=https://registry.npm.taobao.org
 
 RUN npm install cross-env -g --registry=https://registry.npm.taobao.org && npm install pm2 -g --registry=https://registry.npm.taobao.org
