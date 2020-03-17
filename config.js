@@ -15,7 +15,7 @@ if(env === 'production'){
     MYSQL_CONF = {
         database: 'soup',
         username: 'root',
-        password: '',
+        password: '1362061587',
         host: '127.0.0.1',
         port: 3306
     }
